@@ -14,9 +14,9 @@ body {
   background: #fff;
   border-radius: 12px;
   padding: 20px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 4px 20px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 600px;
+  margin: 0 auto;
 }
 
 /* Select Language Dropdown */
@@ -47,6 +47,7 @@ body {
 /* Input Textarea */
 .inputText {
   position: relative;
+  width: 95%;
 }
 
 .input-textarea {
@@ -127,10 +128,7 @@ body {
 }
 
 /* Mobile responsive */
-@media (max-width: 600px) {
-  .container {
-      padding: 15px;
-  }
+@media (max-width: 700px) {
 
   .language-select {
       width: 100%;
